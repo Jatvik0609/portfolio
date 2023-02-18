@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #eaf6f6;
-    height: 100vh;
+:root{
+    --bg-color: #F5EAEA;
+    --second-bg-color: #FFB84C;
+    --text-color: #fff;
+    --second-color: #F16767;
+    --main-color: #A459D1;
 }
 
 h5{
@@ -21,16 +24,16 @@ li{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #84DCC6;
     font-size: 1rem;
 }
 
 a:hover{
-    color:  #BF6666;
+    color: var(--bg-color);
 }
 
 header{
-    background-color: #66bfbf;      
+    background-color: #27233A;      
 }
 
 .navbar{
@@ -41,6 +44,12 @@ header{
     height: 60px;
     max-width: 1200px;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo a{
+    color: var(--second-color);
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar .logo a{
@@ -54,34 +63,77 @@ header{
 }
 
 .navbar .toggle_btn{
-    color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
     display: none;
 }
 
-.acticn_btn{
-    background-color: #BF6666;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.acticn_btn:hover{
-    scale: 1.05;
-    color: #fff;
+section{
+    padding: 160px 15% 120px;
 }
 
 .home{
-    background-image: url(../img/Banner.png);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
     position: relative;
+    height: 110vh;
+    width: 100%;
+    background-image: urL(../img/Banner.png);
+    background-color: #FFD166;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-  
+
+.slide{
+    margin-bottom: 20px;
+}
+
+.one{
+    display: inline-block;
+    margin-right: 15px;
+    height: 32px;
+    padding: 0 15px;
+    Line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #FBB13C;
+    color: #153B50;
+    font-family: 'Space Mono', monospace;
+}
+
+.two{
+    display: inline-block;
+    color: #BF4342;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: #DB2955;
+    font-family: 'Chivo', sans-serif;
+}
+
+.home-text{
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.home h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.home p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn{
+    color: #153B50;
+    font-size: 24px;
+}
+
+.btn2{
+    color: #773344;
+}
