@@ -72,7 +72,7 @@ section {
 
 .home {
     position: relative;
-    height: 110vh;
+    height: 122vh;
     width: 100%;
     background-image: urL(../img/Banner.png);
     background-color: #FFD166;
@@ -106,6 +106,10 @@ section {
     color: #BF4342;
     font-size: 20px;
     font-weight: 500;
+}
+
+.home-text{
+    padding-bottom: 120px;
 }
 
 .home-text h1 {
@@ -343,3 +347,4 @@ header.sticky {
     color: #773344;
     background-color: #FBB13C;
 }
+
