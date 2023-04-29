@@ -1,120 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jatvik Tarpara</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/ae2643d39f.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/ae2643d39f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="#" class="logo">Jatvik Tarpara</a>
-        <ul class="navlist">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#sp">Support</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+      <a href="#" class="logo">Jatvik Tarpara</a>
+      <ul class="navlist" id="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#sp">Support</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
 
-        <div class="bx bx-menu" id="menu-icon">
-
-        </div>
+      <div class="menu-icon1" onclick="togglemenu()">
+        <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <section class="home" id="home">
-        <div class="home-text">
-            <div class="slide">
-                <span class="one"> Hello</span>
-                <span class="two">I'm</span>
-            </div>
-            <h1>Jatvik</h1>
-            <em>
-                <h3>Graphic<span>Designer</span></h3>
-            </em>
-            <p>Web Developer with 2+ years experience <br>
-                coming back for about services makes best effort</p>
-            <div class="button">
-                <a href="#" class="btn">Say Hello</a>
-            </div>
+      <div class="home-text">
+        <div class="slide">
+          <span class="one"> Hello</span>
+          <span class="two">I'm</span>
         </div>
+        <h1>Jatvik</h1>
+        <em>
+          <h3>Graphic<span>Designer</span></h3>
+        </em>
+        <p>
+          Web Developer with 2+ years experience <br />
+          coming back for about services makes best effort
+        </p>
+        <div class="button">
+          <a href="#" class="btn">Say Hello</a>
+        </div>
+      </div>
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/20230129_150043.png" alt="">
-        </div>
-        <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>Creative Graphic Designer</h4>
-            <p>"Howdy, y'all! My name is Jatvik Tarpara, and I am from Gujatat, India. I got my start as a graphic
-                designer by creating an art work for my friend M2LO.</p>
-            <a href="#" class="btn">More About</a>
-        </div>
+      <div class="about-img">
+        <img src="img/20230129_150043.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Creative Graphic Designer</h4>
+        <p>
+          "Howdy, y'all! My name is Jatvik Tarpara, and I am from Gujatat,
+          India. I got my start as a graphic designer by creating an art work
+          for my friend M2LO.
+        </p>
+        <a href="#" class="btn">More About</a>
+      </div>
     </section>
 
     <section class="sp" id="sp">
-        <div class="support" id="support">
-            <div class="main-text">
-                <p>M2LO is a Music Producer, who Spread His Love Through His Music. He Produces Music with Honesty And
-                    crafting engaging stories, Making melodies and grabbing people's attention, and making them feel
-                    good from his music. And is trying to make unity and love Through his Music. He found his
-                    inspiration in Avicii, Martin Garrix, and Nicky Romero, Listening To their Music in His Childhood He
-                    Found His Way To Be A Music Producer.
-
-                    He Releases His First Single On Spotify "You & I" It Perform Pretty Well On Spotify and Reach 4k
-                    Stream. He Releases Many Other Remix Track And Got Good Support From Producer and Creator Like
-                    Arvenius, J4CKO, LostVolts, MHA, DADA Life, PLV, H Lazer, TEAMMBL, Severman...And Many More</p>
-            </div>
-            <div>
-                <img src="img/M2LO.png" alt="">
-                <center>
-                    <h1>M2LO</h1>
-                </center>
-            </div>
+      <div class="support" id="support">
+        <div class="main-text">
+          <p>
+            M2LO is a Music Producer, who Spread His Love Through His Music. He
+            Produces Music with Honesty And crafting engaging stories, Making
+            melodies and grabbing people's attention, and making them feel good
+            from his music. And is trying to make unity and love Through his
+            Music. He found his inspiration in Avicii, Martin Garrix, and Nicky
+            Romero, Listening To their Music in His Childhood He Found His Way
+            To Be A Music Producer. He Releases His First Single On Spotify "You
+            & I" It Perform Pretty Well On Spotify and Reach 4k Stream. He
+            Releases Many Other Remix Track And Got Good Support From Producer
+            and Creator Like Arvenius, J4CKO, LostVolts, MHA, DADA Life, PLV, H
+            Lazer, TEAMMBL, Severman...And Many More
+          </p>
         </div>
+        <div>
+          <img src="img/M2LO.png" alt="" />
+          <center>
+            <h1>M2LO</h1>
+          </center>
+        </div>
+      </div>
     </section>
 
     <section class="contact" id="contact">
-        <div class="contact-text">
-            <h2>Contact Me !</h2>
-            <h4>If you Have Any Project In Your Mind.</h4>
-            <div class="list">
-                <li><a href="">jatvik0609@outlook.com</a></li>
-            </div>
-
-
-            <div class="contact-icons">
-                <a href="https://twitter.com/Jatvik0609"><i class='bx bxl-twitter'></i></a>
-                <a href="https://www.instagram.com/_red_blood_2003/"><i class='bx bxl-instagram-alt'></i></a>
-                <span class="discord"><i class='bx bxl-discord-alt'></i></span>
-                    <h4 class="discord_user_id">Jatvik#5258</h4>
-            </div>
+      <div class="contact-text">
+        <h2>Contact Me !</h2>
+        <h4>If you Have Any Project In Your Mind.</h4>
+        <div class="list">
+          <li><a href="">jatvik0609@outlook.com</a></li>
         </div>
+
+        <div class="contact-icons">
+          <a href="https://twitter.com/Jatvik0609"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/_red_blood_2003/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <span class="discord"><i class="bx bxl-discord-alt"></i></span>
+          <h4 class="discord_user_id">Jatvik#5258</h4>
+        </div>
+      </div>
     </section>
 
     <section class="end">
-        <div class="last-text">
-            <p>Copyright © 2023 by Jatvik Tarpara All Rights Reserved.</p>
-        </div>
+      <div class="last-text">
+        <p>Copyright © 2023 by Jatvik Tarpara All Rights Reserved.</p>
+      </div>
 
-        <div class="top">
-            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
-        </div>
+      <div class="top">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
     </section>
 
-
     <script type="text/javascript" src="js/script.js"></script>
-</body>
-
+  </body>
 </html>

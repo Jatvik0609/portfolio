@@ -57,6 +57,10 @@ header {
     color: #fff;
 }
 
+.menu-icon1{
+    display: none;
+}
+
 #menu-icon {
     font-size: 35px;
     color: #F5EAEA;
@@ -368,4 +372,32 @@ header.sticky {
 
 .contact-text .contact-icons:active .discord_user_id{
     opacity: 1;
+}
+
+
+@media only screen and (max-width:850px){
+
+    .navlist{
+        width: 100%;
+        background-color: #A459D1;
+        position: absolute;
+        top: 70px;
+        right: 0%;
+        z-index: 12;
+    }
+
+    .navlist li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon1{
+        display: block;
+    }
+
+    #navlist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
 }
