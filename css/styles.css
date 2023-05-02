@@ -410,4 +410,14 @@ header.sticky {
     .home-text{
         padding-bottom: 380px;
     }
+
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
 }
