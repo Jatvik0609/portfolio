@@ -87,6 +87,12 @@ section {
     justify-content: flex-start;
 }
 
+@media only screen and (max-width:625px){
+    .home{
+        background-image: url(../img/Banner1.jpg);
+    }
+}
+
 .slide {
     margin-bottom: 20px;
 }
