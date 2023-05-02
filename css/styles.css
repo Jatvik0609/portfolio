@@ -19,6 +19,12 @@ body {
     color: #773344;
 }
 
+@media only screen and (max-width:850px){
+    body{
+        display: block;
+    }
+}
+
 header {
     position: fixed;
     width: 100%;
