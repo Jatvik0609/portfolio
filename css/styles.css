@@ -19,12 +19,6 @@ body {
     color: #773344;
 }
 
-@media only screen and (max-width:850px){
-    body{
-        display: block;
-    }
-}
-
 header {
     position: fixed;
     width: 100%;
@@ -91,64 +85,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-}
-
-@media(max-width:769px){
-    
-    .home{
-        background-image: url(../img/Banner_phone.jpg);
-    }
-
-    .home-text{
-        padding-bottom: 120px;
-    }
-    
-    .home-text h1 {
-        font-size: 100px;
-        font-weight: 700;
-        color: #DB2955;
-        font-family: 'Chivo', sans-serif;
-        margin: 0 0 8px;
-        line-height: 1.1;
-    }
-    
-    .home-text h3 {
-        font-size: 3rem;
-        color: #153B50;
-        margin: 0 0 35px;
-        font-weight: 700;
-        line-height: 1.1;
-    }
-    
-    .home h3 {
-        font-family: 'Work Sans', sans-serif;
-        font-weight: bold;
-    }
-    
-    .home-text p {
-        font-family: 'Work Sans', sans-serif;
-        line-height: 1.8;
-        margin-bottom: 40px;
-        text-transform: capitalize;
-    }
-    
-    .button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .btn {
-        display: inline-block;
-        padding: 12px 28px;
-        color: #153B50;
-        font-size: 1rem;
-        border-radius: 5px;
-        background-color: #FBB13C;
-        letter-spacing: 1px;
-        font-weight: 600;
-        transition: all .45s ease;
-    }
 }
 
 .slide {
@@ -445,7 +381,7 @@ header.sticky {
 
     .navlist{
         width: 100%;
-        background-color: #A459D1;
+        background-color: #FFFFFF;
         position: absolute;
         top: 70px;
         right: 0%;
@@ -465,5 +401,13 @@ header.sticky {
     #navlist{
         overflow: hidden;
         transition: 0.5s;
+    }
+
+    .home{
+        background-image: url(../img/Banner_phone.jpg);
+    }
+
+    .home-text{
+        padding-bottom: 380px;
     }
 }
