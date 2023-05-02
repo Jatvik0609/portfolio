@@ -95,7 +95,7 @@ section {
 
 @media only screen and (max-width:625px){
     .home{
-        background-image: url(../img/Banner1.jpg);
+        background-image: url(../img/Banner_phone.jpg);
     }
 }
 
